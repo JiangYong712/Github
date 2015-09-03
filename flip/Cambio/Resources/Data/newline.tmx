@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.1">
+<header creationtool="Bitext2tmx" creationtoolversion="0.91" segtype="sentence" o-tmf="Bitext2tmx" adminlang="en" srclang="en" datatype="PlainText"  o-encoding="UTF-8">
+</header>
+<body>
+<tu tuid="0" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>There was once</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Una vez había</seg>
+  </tuv>
+</tu>
+<tu tuid="1" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>a sweet little maid,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>una pequeña niña dulce,</seg>
+  </tuv>
+</tu>
+<tu tuid="2" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>much beloved by everybody,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>muy amada por todo el mundo,</seg>
+  </tuv>
+</tu>
+<tu tuid="3" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>but most of all by her grandmother,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>pero aún más por su abuela,</seg>
+  </tuv>
+</tu>
+<tu tuid="4" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>who could never get enough of her.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>quien nunca podía tener demasiado tiempo con ella.</seg>
+  </tuv>
+</tu>
+<tu tuid="5" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Once she sent her</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Una vez ella le envió</seg>
+  </tuv>
+</tu>
+<tu tuid="6" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>a little cap of red velvet,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>una capa pequeña de rojo terciopelo,</seg>
+  </tuv>
+</tu>
+<tu tuid="7" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and as it was very becoming to her,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y porque le quedó bien,</seg>
+  </tuv>
+</tu>
+<tu tuid="8" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and she never wore anything else,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>ella nunca le puso nada más,</seg>
+  </tuv>
+</tu>
+<tu tuid="9" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>people called her Little Red Riding-Hood.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y la gente le llamó Caperucita Roja.</seg>
+  </tuv>
+</tu>
+<tu tuid="10" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>One day her mother said to her,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Un día su  madre le dijo a ella,</seg>
+  </tuv>
+</tu>
+<tu tuid="11" datatype="Text" format="newline">
+  <tuv xml:lang="en">
+    <seg>\n</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>\n</seg>
+  </tuv>
+</tu>
+<tu tuid="12" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>"Come,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>“Ven,</seg>
+  </tuv>
+</tu>
+<tu tuid="13" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Little Red Riding-Hood,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Caperucita Roja,</seg>
+  </tuv>
+</tu>
+<tu tuid="14" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>here are some cakes</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>aquí hay unas tortas</seg>
+  </tuv>
+</tu>
+<tu tuid="15" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y</seg>
+  </tuv>
+</tu>
+<tu tuid="16" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>a bottle of milk for you to take to</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>una botella de leche para llevar contigo </seg>
+  </tuv>
+</tu>
+<tu tuid="17" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>grandmother;</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>la abuela;</seg>
+  </tuv>
+</tu>
+<tu tuid="18" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>she is weak</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>está débil</seg>
+  </tuv>
+</tu>
+<tu tuid="19" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and ill,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y enferma,</seg>
+  </tuv>
+</tu>
+<tu tuid="20" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and they will do her good.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y las ayudarán.</seg>
+  </tuv>
+</tu>
+<tu tuid="21" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Make haste</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Ten prisa</seg>
+  </tuv>
+</tu>
+<tu tuid="22" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and start before it grows hot,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y empieza antes de que haya calor,</seg>
+  </tuv>
+</tu>
+<tu tuid="23" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and walk nicely</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y camina bien</seg>
+  </tuv>
+</tu>
+<tu tuid="24" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and appropriately,
+</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y apropiadamente,</seg>
+  </tuv>
+</tu>
+<tu tuid="25" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and don't run,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y no corres,</seg>
+  </tuv>
+</tu>
+<tu tuid="26" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>or you might fall</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>o podrías caer</seg>
+  </tuv>
+</tu>
+<tu tuid="27" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and break</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y romper</seg>
+  </tuv>
+</tu>
+<tu tuid="28" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>the bottle of milk,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>la botella de leche,</seg>
+  </tuv>
+</tu>
+<tu tuid="29" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and there would be none left for</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y no le quedaría nada para</seg>
+  </tuv>
+</tu>
+<tu tuid="30" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>grandmother.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>la abuela.</seg>
+  </tuv>
+</tu>
+<tu tuid="31" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>And when you go into her house,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Y cuando entras en su casa,</seg>
+  </tuv>
+</tu>
+<tu tuid="32" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>don't forget to say,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>no olvides decir,</seg>
+  </tuv>
+</tu>
+<tu tuid="33" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Good morning,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Buenos días,</seg>
+  </tuv>
+</tu>
+<tu tuid="34" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>instead of staring about you.”</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>en vez de mirarla fijamente.”</seg>
+  </tuv>
+</tu>
+<tu tuid="35" datatype="Text" format="newline">
+  <tuv xml:lang="en">
+    <seg>\n</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>\n</seg>
+  </tuv>
+</tu>
+<tu tuid="36" datatype="Text" >
+  <tuv xml:lang="en">
+    <seg>"I will be sure to take care,”</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>"Tendré cuidado,”</seg>
+  </tuv>
+</tu>
+<tu tuid="37" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>said Little Red Riding-Hood to her mother,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>dijo Caperucita Roja a su madre,</seg>
+  </tuv>
+</tu>
+<tu tuid="38" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and gave her hand upon it.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y dio su mano para prometerlo.</seg>
+  </tuv>
+</tu>
+<tu tuid="39" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Now</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Ahora</seg>
+  </tuv>
+</tu>
+<tu tuid="40" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>the grandmother lived away in</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>la abuela vivía lejos en</seg>
+  </tuv>
+</tu>
+<tu tuid="41" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>the forest,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>el bosque,</seg>
+  </tuv>
+</tu>
+<tu tuid="42" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>half-an-hour's walk</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>un camino de media hora</seg>
+  </tuv>
+</tu>
+<tu tuid="43" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>from the village;</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>del pueblo;</seg>
+  </tuv>
+</tu>
+<tu tuid="44" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>and when Little Red Riding-Hood had reached</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>y cuando Caperucita Roja ha llegado</seg>
+  </tuv>
+</tu>
+<tu tuid="45" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>the forest,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>al bosque,</seg>
+  </tuv>
+</tu>
+<tu tuid="46" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>she met</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>ella conoció</seg>
+  </tuv>
+</tu>
+<tu tuid="47" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>the wolf;</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>al lobo;</seg>
+  </tuv>
+</tu>
+<tu tuid="48" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>but as she did not know what</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>pero como no sabía</seg>
+  </tuv>
+</tu>
+<tu tuid="49" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>a bad sort of animal he was,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>el animal malo que él era,</seg>
+  </tuv>
+</tu>
+<tu tuid="50" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>she did not feel frightened.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>no tenía miedo.</seg>
+  </tuv>
+</tu>
+<tu tuid="51" datatype="Text" format="newline">
+  <tuv xml:lang="en">
+    <seg>\n</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>\n</seg>
+  </tuv>
+</tu>
+<tu tuid="52" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>"Good day,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>"Buenos días,</seg>
+  </tuv>
+</tu>
+<tu tuid="53" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Little Red Riding-Hood,”</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Caperucita Roja,”</seg>
+  </tuv>
+</tu>
+<tu tuid="54" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>said he.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>dijo él.</seg>
+  </tuv>
+</tu>
+<tu tuid="55" datatype="Text" format="newline">
+  <tuv xml:lang="en">
+    <seg>\n</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>\n</seg>
+  </tuv>
+</tu>
+<tu tuid="56" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>"Thank you kindly,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>"Muchas gracias,</seg>
+  </tuv>
+</tu>
+<tu tuid="57" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Wolf,”</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Lobo,”</seg>
+  </tuv>
+</tu>
+<tu tuid="58" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>answered she.</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>contestó ella.</seg>
+  </tuv>
+</tu>
+<tu tuid="59" datatype="Text" format="newline">
+  <tuv xml:lang="en">
+    <seg>\n</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>\n</seg>
+  </tuv>
+</tu>
+<tu tuid="60" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>"Where are you going so early,</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>"¿Adónde vas tan temprano,</seg>
+  </tuv>
+</tu>
+<tu tuid="61" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Little Red Riding-Hood?”</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Caperucita Roja?”</seg>
+  </tuv>
+</tu>
+<tu tuid="62" datatype="Text" format="newline">
+  <tuv xml:lang="en">
+    <seg>\n</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>\n</seg>
+  </tuv>
+</tu>
+<tu tuid="63" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>"To my grandmother’s house.”</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>"A la casa de mi abuela.”</seg>
+  </tuv>
+</tu>
+</body>
+</tmx>

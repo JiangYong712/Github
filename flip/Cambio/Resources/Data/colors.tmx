@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.1">
+<header>
+</header>
+<body>
+<tu tuid="1" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Red</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Rojo</seg>
+  </tuv>
+</tu>
+<tu tuid="2" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Blue</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Azul</seg>
+  </tuv>
+</tu>
+<tu tuid="3" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Yellow</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Amarillo</seg>
+  </tuv>
+</tu>
+<tu tuid="4" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Green</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Verde</seg>
+  </tuv>
+</tu>
+<tu tuid="5" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Orange</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Anaranjado</seg>
+  </tuv>
+</tu>
+<tu tuid="6" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Black</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Negro</seg>
+  </tuv>
+</tu>
+<tu tuid="7" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>White</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Blanco</seg>
+  </tuv>
+</tu>
+</body>
+</tmx>

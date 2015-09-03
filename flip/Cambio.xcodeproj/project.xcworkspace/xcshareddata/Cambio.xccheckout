@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A65E3836-813B-4C04-A04E-86FFE40F001C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>694B98AE3FA273A8DD430F2FC3B20CDA6CAA9463</key>
+		<string>https://github.com/pcast/flip.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cambio.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>694B98AE3FA273A8DD430F2FC3B20CDA6CAA9463</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pcast/flip.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>694B98AE3FA273A8DD430F2FC3B20CDA6CAA9463</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>694B98AE3FA273A8DD430F2FC3B20CDA6CAA9463</string>
+			<key>IDESourceControlWCCName</key>
+			<string>flip</string>
+		</dict>
+	</array>
+</dict>
+</plist>

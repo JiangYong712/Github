@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.1">
+<header>
+</header>
+<body>
+<tu tuid="1" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>One</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Uno</seg>
+  </tuv>
+</tu>
+<tu tuid="2" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Two</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Dos</seg>
+  </tuv>
+</tu>
+<tu tuid="3" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Three</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Tres</seg>
+  </tuv>
+</tu>
+<tu tuid="4" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Four</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Cuatro</seg>
+  </tuv>
+</tu>
+<tu tuid="5" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Five</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Cinco</seg>
+  </tuv>
+</tu>
+<tu tuid="6" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Six</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Seis</seg>
+  </tuv>
+</tu>
+<tu tuid="7" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Seven</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Siete</seg>
+  </tuv>
+</tu>
+<tu tuid="8" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Eight</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Ocho</seg>
+  </tuv>
+</tu>
+<tu tuid="9" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Nine</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Nueve</seg>
+  </tuv>
+</tu>
+<tu tuid="10" datatype="Text">
+  <tuv xml:lang="en">
+    <seg>Ten</seg>
+  </tuv>
+  <tuv xml:lang="es">
+    <seg>Diez</seg>
+  </tuv>
+</tu>
+</body>
+</tmx>
+
+
