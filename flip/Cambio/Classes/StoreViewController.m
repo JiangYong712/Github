@@ -8,8 +8,11 @@
 
 #import "StoreViewController.h"
 #import "AppDelegate.h"
+#import "BookObject.h"
 
 @implementation StoreViewController
+
+@synthesize m_pBookShelfListArray;
 
 - (void)viewDidLoad
 {
@@ -28,6 +31,7 @@
     
     [self updateNavTitleView];
     [self addControlPannel];
+    [self getBookShelfList];
     [self addBookshelfList];
 }
 
@@ -80,28 +84,72 @@
     
 }
 
+- (void) getBookShelfList
+{
+    if (m_pBookShelfListArray == NULL) {
+        m_pBookShelfListArray = [[NSMutableArray alloc] init];
+    }
+    else {
+        [m_pBookShelfListArray removeAllObjects];
+    }
+    
+    for (int i = 0; i < 6; i++) {
+        BookObject *oneBookObject = [[BookObject alloc] init];
+        oneBookObject.m_pTMXFileName = @"newline";
+        oneBookObject.m_pBookTitleString = [NSString stringWithFormat:@"Book %d", i+1];
+        oneBookObject.m_pBookDescString = @"The story revolves around a girl called Little Red Riding Hood. The girl walks through the woods to deliver food to her sickly grandmother(wine and cake depending on the translation). In the Grimm's version, she had the order from her mother to stay";
+        oneBookObject.m_pBookIconImageString = @"default_book.png";
+        oneBookObject.m_pBookImageString = @"dialog_default_image.png";
+        
+        switch (i) {
+            case 0:
+                oneBookObject.m_pBookPriceString = @"$2.95";
+                break;
+            case 1:
+                oneBookObject.m_pBookPriceString = @"$3.80";
+                break;
+            case 2:
+                oneBookObject.m_pBookPriceString = @"$2.20";
+                break;
+            case 3:
+                oneBookObject.m_pBookPriceString = @"$1.95";
+                break;
+            case 4:
+                oneBookObject.m_pBookPriceString = @"$2.65";
+                break;
+            case 5:
+                oneBookObject.m_pBookPriceString = @"$1.50";
+                break;
+            default:
+                break;
+        }
+        
+        [m_pBookShelfListArray addObject:oneBookObject];
+    }
+}
+
 - (void) addBookshelfList
 {
     _scrollView.frame = CGRectMake(0, m_fControlPanelHeight, m_fScreenWidth, m_fScreenHeight-m_fControlPanelHeight);
-    
-    NSMutableArray *bookPriceArray = [[NSMutableArray alloc] init];
-    [bookPriceArray addObject:@"$2.95"];
-    [bookPriceArray addObject:@"$3.80"];
-    [bookPriceArray addObject:@"$2.20"];
-    [bookPriceArray addObject:@"$1.95"];
-    [bookPriceArray addObject:@"$2.65"];
-    [bookPriceArray addObject:@"$1.50"];
     
     int rowCount = 3;
     CGFloat imageWidth = m_fScreenWidth*0.28;
     CGFloat imageHeight = m_fScreenWidth*0.28;
     CGFloat imageXoffset = m_fScreenWidth*0.05;
     CGFloat imageYoffset = m_fScreenHeight*0.15;
-    for (int i = 0; i < 6; i++) {
+    
+    int  bookCount = (int)[m_pBookShelfListArray count];
+    if (bookCount == 0) {
+        return;
+    }
+    
+    for (int i = 0; i < bookCount; i++) {
+        
+        BookObject *oneBookObject = [m_pBookShelfListArray objectAtIndex:i];
         
         UIButton *bookImageButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [bookImageButton addTarget:self action:@selector(bookImageButtonCliked:) forControlEvents:UIControlEventTouchUpInside];
-        [bookImageButton setBackgroundImage:[UIImage imageNamed:@"default_book.png"] forState:UIControlStateNormal];
+        [bookImageButton setBackgroundImage:[UIImage imageNamed:oneBookObject.m_pBookIconImageString] forState:UIControlStateNormal];
         [bookImageButton setTag:i];
         
         [bookImageButton setFrame:CGRectMake(m_fScreenWidth*0.03 + (imageWidth+imageXoffset) * (i%rowCount), m_fScreenHeight*0.05 + (imageHeight+imageYoffset) * (i/rowCount),
@@ -113,7 +161,7 @@
         bookTitleLabel.center = CGPointMake(bookImageButton.center.x, bookImageButton.center.y + imageHeight*0.7);
         [bookTitleLabel setTextColor:[UIColor blackColor]];
         [bookTitleLabel setFont:[UIFont systemFontOfSize:15*m_fMainScale]];
-        [bookTitleLabel setText:[NSString stringWithFormat:@"Book %d", i+1]];
+        [bookTitleLabel setText:oneBookObject.m_pBookTitleString];
         bookTitleLabel.textAlignment = NSTextAlignmentCenter;
         
         [_scrollView addSubview:bookTitleLabel];
@@ -121,7 +169,7 @@
         UILabel *bookPriceLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, imageWidth, m_fScreenWidth*0.1)];
         bookPriceLabel.center = CGPointMake(bookImageButton.center.x, bookTitleLabel.center.y + m_fScreenWidth*0.1);
         [bookPriceLabel setTextColor:[UIColor redColor]];
-        [bookPriceLabel setText:[bookPriceArray objectAtIndex:i]];
+        [bookPriceLabel setText:oneBookObject.m_pBookPriceString];
         [bookPriceLabel setFont:[UIFont systemFontOfSize:15*m_fMainScale]];
         bookPriceLabel.textAlignment = NSTextAlignmentCenter;
         [_scrollView addSubview:bookPriceLabel];
@@ -136,12 +184,14 @@
     [alertView close];
 }
 
-- (UIView *)createDemoView
+- (UIView *)createDemoView:(int)nBookIdx
 {
+    BookObject *oneBookObject = [m_pBookShelfListArray objectAtIndex:nBookIdx];
+    
     UIView *bookView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, m_fScreenWidth*0.7, m_fScreenWidth*1.3)];
     
     UIImageView *titleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, m_fScreenWidth*0.7, m_fScreenWidth*0.5)];
-    [titleImageView setImage:[UIImage imageNamed:@"dialog_default_image.png"]];
+    [titleImageView setImage:[UIImage imageNamed:oneBookObject.m_pBookImageString]];
     [bookView addSubview:titleImageView];
     
     UIButton *closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -154,7 +204,7 @@
     bookTitleLabel.center = CGPointMake(titleImageView.center.x, titleImageView.center.y + m_fScreenWidth*0.38);
     bookTitleLabel.numberOfLines = 0;
     [bookTitleLabel setTextColor:[UIColor blackColor]];
-    [bookTitleLabel setText:@"Little Red\n Riding Hood"];
+    [bookTitleLabel setText:oneBookObject.m_pBookTitleString];
     [bookTitleLabel setFont:[UIFont boldSystemFontOfSize:20*m_fMainScale]];
     bookTitleLabel.textAlignment = NSTextAlignmentCenter;
     [bookView addSubview:bookTitleLabel];
@@ -164,7 +214,7 @@
     bookDescLabel.numberOfLines = 0;
     bookDescLabel.textAlignment = NSTextAlignmentLeft;
     [bookDescLabel setTextColor:[UIColor blackColor]];
-    [bookDescLabel setText:@"The story revolves around a girl called Little Red Riding Hood. The girl walks through the woods to deliver food to her sickly grandmother(wine and cake depending on the translation). In the Grimm's version, she had the order from her mother to stay"];
+    [bookDescLabel setText:oneBookObject.m_pBookDescString];
     [bookDescLabel setFont:[UIFont systemFontOfSize:10*m_fMainScale]];
     bookDescLabel.textAlignment = NSTextAlignmentLeft;
     [bookView addSubview:bookDescLabel];
@@ -172,7 +222,7 @@
     UILabel *bookPriceLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, m_fScreenWidth*0.6, m_fScreenWidth*0.2)];
     bookPriceLabel.center = CGPointMake(titleImageView.center.x, m_fScreenWidth*1.05);
     [bookPriceLabel setTextColor:[UIColor redColor]];
-    [bookPriceLabel setText:@"$2.95"];
+    [bookPriceLabel setText:oneBookObject.m_pBookPriceString];
     [bookPriceLabel setFont:[UIFont boldSystemFontOfSize:24*m_fMainScale]];
     bookPriceLabel.textAlignment = NSTextAlignmentCenter;
     [bookView addSubview:bookPriceLabel];
@@ -190,11 +240,13 @@
 
 - (void) bookImageButtonCliked:(UIButton*)sender
 {
+    int nBookIndex = (int)sender.tag;
+    
     // Here we need to pass a full frame
     m_pAlertView = [[CustomIOSAlertView alloc] init];
     
     // Add some custom content to the alert view
-    [m_pAlertView setContainerView:[self createDemoView]];
+    [m_pAlertView setContainerView:[self createDemoView:nBookIndex]];
     
     // Modify the parameters
     [m_pAlertView setButtonTitles:NULL];

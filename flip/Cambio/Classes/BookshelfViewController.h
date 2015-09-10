@@ -18,8 +18,10 @@
     CGFloat m_fControlPanelHeight;
     
     CustomIOSAlertView *m_pAlertView;
+    
 }
 
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) NSMutableArray *m_pBookShelfListArray;
 
 @end

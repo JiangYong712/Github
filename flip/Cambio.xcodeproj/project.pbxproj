@@ -109,6 +109,7 @@
 		3C7D3F7E1B8EBF57009BC79D /* password_container@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7D3F601B8EBF57009BC79D /* password_container@2x.png */; };
 		3C7D3F7F1B8EBF57009BC79D /* username_container.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7D3F611B8EBF57009BC79D /* username_container.png */; };
 		3C7D3F801B8EBF57009BC79D /* username_container@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7D3F621B8EBF57009BC79D /* username_container@2x.png */; };
+		3C8EC4201BA16B2F00433AE8 /* BookObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EC41F1BA16B2F00433AE8 /* BookObject.m */; };
 		3CF6DA381B4CB97F00152ED6 /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6DA361B4CB97F00152ED6 /* report.png */; };
 		3CF6DA391B4CB97F00152ED6 /* report@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6DA371B4CB97F00152ED6 /* report@2x.png */; };
 		3CF6DA3C1B4CBB4C00152ED6 /* cancel_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6DA3A1B4CBB4C00152ED6 /* cancel_btn.png */; };
@@ -238,6 +239,8 @@
 		3C7D3F601B8EBF57009BC79D /* password_container@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_container@2x.png"; sourceTree = "<group>"; };
 		3C7D3F611B8EBF57009BC79D /* username_container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username_container.png; sourceTree = "<group>"; };
 		3C7D3F621B8EBF57009BC79D /* username_container@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "username_container@2x.png"; sourceTree = "<group>"; };
+		3C8EC41E1BA16B2F00433AE8 /* BookObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookObject.h; sourceTree = "<group>"; };
+		3C8EC41F1BA16B2F00433AE8 /* BookObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookObject.m; sourceTree = "<group>"; };
 		3CF6DA361B4CB97F00152ED6 /* report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report.png; sourceTree = "<group>"; };
 		3CF6DA371B4CB97F00152ED6 /* report@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report@2x.png"; sourceTree = "<group>"; };
 		3CF6DA3A1B4CBB4C00152ED6 /* cancel_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel_btn.png; sourceTree = "<group>"; };
@@ -385,6 +388,8 @@
 				3C5A89381B4C18CD003E14FC /* CustomAlert */,
 				3C725CF21B4AE64000D63DC2 /* TMXParser */,
 				3C725CBA1B4AE14D00D63DC2 /* SlideMenu */,
+				3C8EC41E1BA16B2F00433AE8 /* BookObject.h */,
+				3C8EC41F1BA16B2F00433AE8 /* BookObject.m */,
 				3C725CF01B4AE64000D63DC2 /* CambioWordSlider.h */,
 				3C725CF11B4AE64000D63DC2 /* CambioWordSlider.m */,
 				3C725CAE1B4AE14D00D63DC2 /* StoreViewController.h */,
@@ -702,6 +707,7 @@
 				3C725C981B4AE01A00D63DC2 /* AppDelegate.m in Sources */,
 				3C725CD51B4AE14D00D63DC2 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				3C725CD21B4AE14D00D63DC2 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				3C8EC4201BA16B2F00433AE8 /* BookObject.m in Sources */,
 				3C725CD41B4AE14D00D63DC2 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				3C725CD31B4AE14D00D63DC2 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				3C725CD01B4AE14D00D63DC2 /* BookshelfViewController.m in Sources */,

@@ -21,5 +21,6 @@
 }
 
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) NSMutableArray *m_pBookShelfListArray;
 
 @end

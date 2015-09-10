@@ -10,6 +10,8 @@
 
 @implementation AppDelegate
 
+@synthesize m_pSelectedTmxFile;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
@@ -45,7 +47,7 @@
         NSLog(@"Revealed %@", menu);
     }];
     
-    
+    m_pSelectedTmxFile = @"newline";
 //    UIViewController *vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"HomeViewController"];
 //    [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
 //                                                             withSlideOutAnimation:YES

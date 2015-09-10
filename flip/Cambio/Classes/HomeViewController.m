@@ -100,7 +100,9 @@
 
 - (void) addWordSlider
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"newline" ofType:@"tmx"];
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:appDelegate.m_pSelectedTmxFile ofType:@"tmx"];
     //NSString *path = [[NSBundle mainBundle] pathForResource:@"example" ofType:@"tmx"];
     //NSString *path = [[NSBundle mainBundle] pathForResource:@"colors" ofType:@"tmx"];
     NSString *content = [NSString stringWithContentsOfFile:path
